@@ -1,0 +1,53 @@
+{
+  "name": "shadcn-webcomponents",
+  "description": "Biblioteca de webcomponents shadcn/ui para web",
+  "version": "1.0.0",
+  "keywords": [
+    "ui",
+    "lib",
+    "web",
+    "shadcn",
+    "shadcn-ui",
+    "front-end",
+    "components",
+    "webcomponents"
+  ],
+  "homepage": "https://github.com/icarobteles/shadcn-webcomponents#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icarobteles/shadcn-webcomponents.git"
+  },
+  "bugs": {
+    "url": "https://github.com/icarobteles/shadcn-webcomponents/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": {
+    "name": "Ícaro Bomfim Teles",
+    "email": "odevicaroteles@gmail.com",
+    "url": "https://github.com/icarobteles"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@9.12.1",
+  "scripts": {
+    "build": "turbo build",
+    "build:ui": "turbo build --filter=@shadcn-webcomponents",
+    "check": "turbo check",
+    "check:ui": "turbo check --filter=@shadcn-webcomponents",
+    "clean": "rm -rf node_modules && rm -rf .turbo",
+    "clean:ui": "turbo clean --filter=@shadcn-webcomponents",
+    "dev": "turbo dev",
+    "dev:ui": "turbo dev --filter=@shadcn-webcomponents",
+    "format": "turbo format",
+    "format:ui": "turbo format --filter=@shadcn-webcomponents",
+    "lint": "turbo lint",
+    "lint:ui": "turbo lint --filter=@shadcn-webcomponents"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "turbo": "^2.1.3"
+  }
+}
