@@ -1,0 +1,11 @@
+{
+  "name": "@shadcn-webcomponents/typescript-config",
+  "version": "1.0.0",
+  "private": true,
+  "files": [
+    "tsconfig.base.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
